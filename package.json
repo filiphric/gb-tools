@@ -1,18 +1,22 @@
 {
-  "name": "qr-code-generator",
+  "name": "gb-tools",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "vite --open",
+    "dev": "vite --open",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@chenfengyuan/vue-barcode": "^2.0.1",
+    "jsbarcode": "^3.11.5",
     "qrcode": "^1.5.1",
     "vue": "^3.2.47"
   },
   "devDependencies": {
+    "@types/qrcode": "^1.5.0",
     "@vitejs/plugin-vue": "^4.1.0",
     "autoprefixer": "^10.4.14",
     "typescript": "^4.9.3",
